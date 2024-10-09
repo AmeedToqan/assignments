@@ -1,0 +1,37 @@
+body{
+    font-family:Arial, sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    background-color:rgb(138, 147, 151);
+
+}
+
+.GalleryCONT{
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 20px;
+
+
+}
+
+.Gallery{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 10px;       
+}
+
+.Gallery img{
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px;
+
+}
